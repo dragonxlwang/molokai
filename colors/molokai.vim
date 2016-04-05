@@ -66,8 +66,10 @@ hi MoreMsg         guifg=#E6DB74
 hi Operator        guifg=#F92672
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
-hi PmenuSel                      guibg=#808080
+" hi Pmenu           guifg=#66D9EF guibg=#000000
+" hi PmenuSel                      guibg=#808080
+hi Pmenu           guifg=#00FFFF guibg=#2C2D27
+hi PmenuSel        guifg=#FFFFFF guibg=#808080
 hi PmenuSbar                     guibg=#080808
 hi PmenuThumb      guifg=#66D9EF
 
@@ -188,8 +190,10 @@ if &t_Co > 255
    hi Operator        ctermfg=161
 
    " complete menu
-   hi Pmenu           ctermfg=81  ctermbg=16
-   hi PmenuSel        ctermfg=255 ctermbg=242
+   " hi Pmenu           ctermfg=81  ctermbg=16
+   " hi PmenuSel        ctermfg=255 ctermbg=242
+   hi Pmenu           ctermfg=051 ctermbg=235
+   hi PmenuSel        ctermfg=015 ctermbg=008
    hi PmenuSbar                   ctermbg=232
    hi PmenuThumb      ctermfg=81
 
@@ -278,6 +282,9 @@ if &t_Co > 255
        hi SpecialKey      ctermfg=239
    endif
 end
+
+" Customized highlight group
+highlight ExtraWhitespace ctermbg=199 guibg=#ff00af
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
