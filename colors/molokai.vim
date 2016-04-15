@@ -286,7 +286,7 @@ if &t_Co > 255
 end
 
 " Customized highlight group
-highlight ExtraWhitespace ctermbg=245 guibg=#8A8A8A
+highlight ExtraWhitespace ctermbg=053 guibg=#5F005F
 
 " Must be at the end, because of ctermbg=234 bug.
 " https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
