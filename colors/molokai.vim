@@ -128,11 +128,13 @@ else
    " hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
    hi Normal          guifg=#F8F8F2 guibg=#272822
    hi Comment         guifg=#7E8E91
+   " hi Comment         guifg=#AFAF87
    hi CursorLine                    guibg=#293739
    hi CursorLineNr    guifg=#FD971F               gui=none
    hi CursorColumn                  guibg=#293739
    hi ColorColumn                   guibg=#232526
-   hi LineNr          guifg=#465457 guibg=#232526
+   " hi LineNr          guifg=#465457 guibg=#232526
+   hi LineNr          guifg=#878787 guibg=#232526
    hi NonText         guifg=#465457
    hi SpecialKey      guifg=#465457
 end
@@ -238,9 +240,11 @@ if &t_Co > 255
    hi WildMenu        ctermfg=81  ctermbg=16
 
    hi Comment         ctermfg=59
+   " hi Comment         ctermfg=144
    hi CursorColumn                ctermbg=236
    hi ColorColumn                 ctermbg=236
-   hi LineNr          ctermfg=250 ctermbg=236
+   " hi LineNr          ctermfg=250 ctermbg=236
+   hi LineNr          ctermfg=102 ctermbg=236
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
@@ -279,7 +283,9 @@ if &t_Co > 255
        hi Visual                      ctermbg=242
 
        hi Comment         ctermfg=244
-       hi LineNr          ctermfg=239 ctermbg=235
+       " hi Comment         ctermfg=144
+       " hi LineNr          ctermfg=239 ctermbg=235
+       hi LineNr          ctermfg=102 ctermbg=235
        hi NonText         ctermfg=239
        hi SpecialKey      ctermfg=239
    endif
