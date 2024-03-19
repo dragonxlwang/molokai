@@ -252,6 +252,8 @@ if &t_Co > 255
    hi NonText         ctermfg=59
 
    hi SpecialKey      ctermfg=59
+   hi SelfKey         ctermfg=215
+   hi EqualKey        ctermfg=212
 
    if exists("g:rehash256") && g:rehash256 == 1
        hi Normal       ctermfg=252 ctermbg=234
