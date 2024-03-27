@@ -239,7 +239,7 @@ if &t_Co > 255
    " hi VisualNOS                   ctermbg=238
    " hi Visual                      ctermbg=235
    hi VisualNOS                   ctermbg=240
-   hi Visual                      ctermbg=237
+   hi Visual         ctermfg=none ctermbg=237   cterm=bold
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
